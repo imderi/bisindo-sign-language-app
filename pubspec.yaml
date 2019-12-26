@@ -1,0 +1,203 @@
+name: skripsi_bisindo02
+description: Metode 2
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  http: any
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+  assets:
+    - img/bg_aboutus.jpg
+    - img/appdrawerlogo.jpg
+    - img/deri.gif
+    # 0 Semua Gambar
+
+    # 1 ABJAD
+    - img/materi/1abjad/1_A.gif
+    - img/materi/1abjad/2_B.gif
+    - img/materi/1abjad/3_C.gif
+    - img/materi/1abjad/4_D.gif
+    - img/materi/1abjad/5_E.gif
+    - img/materi/1abjad/6_F.gif
+    - img/materi/1abjad/7_G.gif
+    - img/materi/1abjad/8_H.gif
+    - img/materi/1abjad/9_I.gif
+    - img/materi/1abjad/10_J.gif
+    - img/materi/1abjad/11_K.gif
+    - img/materi/1abjad/12_L.gif
+    - img/materi/1abjad/13_M.gif
+    - img/materi/1abjad/14_N.gif
+    - img/materi/1abjad/15_O.gif
+    - img/materi/1abjad/16_P.gif
+    - img/materi/1abjad/17_Q.gif
+    - img/materi/1abjad/18_R.gif
+    - img/materi/1abjad/19_S.gif
+    - img/materi/1abjad/20_T.gif
+    - img/materi/1abjad/21_U.gif
+    - img/materi/1abjad/22_V.gif
+    - img/materi/1abjad/23_W.gif
+    - img/materi/1abjad/24_X.gif
+    - img/materi/1abjad/25_Y.gif
+    - img/materi/1abjad/26_Z.gif
+    #  2 NOMOR
+    - img/materi/2nomor/Nomor.gif
+    - img/materi/2nomor/1.gif
+    - img/materi/2nomor/2.gif
+    - img/materi/2nomor/3.gif
+    - img/materi/2nomor/4.gif
+    - img/materi/2nomor/5.gif
+    - img/materi/2nomor/6.gif
+    - img/materi/2nomor/7.gif
+    - img/materi/2nomor/8.gif
+    - img/materi/2nomor/9.gif
+    - img/materi/2nomor/10.gif
+
+    # 3 Sapaan
+    - img/materi/3sapaan/assalamualikum.gif
+    - img/materi/3sapaan/halo.gif
+    - img/materi/3sapaan/maaf.gif
+    - img/materi/3sapaan/samasama.gif
+    - img/materi/3sapaan/selamatdatang.gif
+    - img/materi/3sapaan/selamatpagi.gif
+    - img/materi/3sapaan/terimakasih.gif
+
+    # 4 Kata Ganti Orang
+    # - img/materi/4katagantiorang/
+    
+    # 5 Kata Tanya
+    - img/materi/5katatanya/apa.gif
+    - img/materi/5katatanya/bagaimana.gif
+    - img/materi/5katatanya/dimana.gif
+    - img/materi/5katatanya/kapan.gif
+    - img/materi/5katatanya/mengapa.gif
+    - img/materi/5katatanya/siapa.gif
+
+    # 6 Panggilan Keluarga
+    - img/materi/6panggilankeluarga/ibu.gif
+    - img/materi/6panggilankeluarga/bapak.gif
+    - img/materi/6panggilankeluarga/adik.gif
+    - img/materi/6panggilankeluarga/kakak.gif
+    - img/materi/6panggilankeluarga/kakek.gif
+    - img/materi/6panggilankeluarga/nenek.gif
+
+    # 7 Hari
+    - img/materi/7hari/senin.gif
+    - img/materi/7hari/selasa.gif
+    - img/materi/7hari/rabu.gif
+    - img/materi/7hari/kamis.gif
+    - img/materi/7hari/jumat.gif
+    - img/materi/7hari/sabtu.gif
+    - img/materi/7hari/minggu.gif
+    - img/materi/7hari/besok.gif
+    - img/materi/7hari/kemarin.gif
+    - img/materi/7hari/depan.gif
+    - img/materi/7hari/lusa.gif
+    - img/materi/7hari/lalu.gif
+    - img/materi/7hari/hari.gif
+
+    # 8 Kata Kerja
+    - img/materi/8katakerja/bangun.gif
+    - img/materi/8katakerja/makan.gif
+    - img/materi/8katakerja/minum.gif
+    - img/materi/8katakerja/kerja.gif
+    - img/materi/8katakerja/sekolah.gif
+    - img/materi/8katakerja/kerja.gif
+    - img/materi/8katakerja/tidur.gif
+    
+    # 9 Kata Sifat
+    - img/materi/9katasifat/baik.gif
+    - img/materi/9katasifat/emosi.gif
+    - img/materi/9katasifat/malas.gif
+    - img/materi/9katasifat/marah.gif
+    - img/materi/9katasifat/rajin.gif
+    - img/materi/9katasifat/sabar.gif
+    - img/materi/9katasifat/semangat.gif
+
+    # 11 Warna
+    - img/materi/10warna/warna.gif
+    - img/materi/10warna/abuabu.gif
+    - img/materi/10warna/biru.gif
+    - img/materi/10warna/coklat.gif
+    - img/materi/10warna/emas.gif
+    - img/materi/10warna/hijau.gif
+    - img/materi/10warna/hitam.gif
+    - img/materi/10warna/kuning.gif
+    - img/materi/10warna/merah.gif
+    - img/materi/10warna/oranye.gif
+    - img/materi/10warna/perak.gif
+    - img/materi/10warna/putih.gif
+    - img/materi/10warna/ungu.gif
+
+    
+    
+
+
+    
+
+
+#    - assets/images/
+
+  # To add assets to your application, add an assets section, like this:
+  # assets:
+  #  - images/a_dot_burr.jpeg
+  #  - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  #fonts:
+  #  - family: Schyler
+  #     fonts:
+  #       - asset: assets/fonts/sspu.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

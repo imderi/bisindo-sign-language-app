@@ -1,0 +1,87 @@
+import 'package:flutter/material.dart';
+
+//import untuk view dari page diluar kode main
+import 'menu_kuis.dart';
+import 'menu_belajar.dart';
+
+void main() => runApp(MyApp());
+
+class MyApp extends StatelessWidget {
+  // This widget is the root of your application.
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Belajar BISINDO App',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+      home: MyHomePage(),
+    );
+  }
+}
+
+class MyHomePage extends StatefulWidget {
+  MyHomePage({Key key, this.title}) : super(key: key);
+
+  final String title;
+
+  @override
+  _MyHomePageState createState() => _MyHomePageState();
+}
+
+class _MyHomePageState extends State<MyHomePage> {
+
+  @override
+  Widget build(BuildContext context) {
+    return DefaultTabController(
+      length: 3,
+      child: Scaffold(
+        // untuk menu yang letaknya ada di kiri appbar
+        drawer: Drawer(
+          child: ListView(
+            padding: EdgeInsets.zero,
+            children: <Widget>[
+              DrawerHeader(
+                child: Text("Belajar Bisindo"),
+                decoration: BoxDecoration(
+                  color: Colors.blue
+                ),
+              ),
+              // **** Menu appdrawer
+              ListTile(
+                title: Text("Daftar Komunitas"),
+                onTap: (null),
+              ),
+              ListTile(
+                title: Text("Tentang"),
+                onTap: (null),
+              ),
+            ],
+          ),
+        ),
+        appBar: AppBar(
+          title: Text("Belajar BISINDO"),
+
+          //Membuat tabbar sebagai menu navigasi
+          bottom: TabBar(
+            tabs: [
+              Tab(icon: Icon(Icons.book), text: "Belajar"), //tab untuk menu_belajar
+              Tab(icon: Icon(Icons.assignment), text: "Kuis"), //tab untuk menu_kuis
+              Tab(icon: Icon(Icons.book), text: "Semua Kata"), //tab untuk semua kata
+            ],
+          ),
+        ),
+
+        body: TabBarView(
+            children: [
+              //memanggil view dari page lain
+              Belajar(), //menu_belajar.dart
+              MenuKuis(), //menu_kuis.dart
+              Belajar(),
+            ],
+        ),
+      ),
+    );
+
+  }
+}
